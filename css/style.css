@@ -24,7 +24,13 @@ nav{
     height: 40px;
 }
 #particle {
-    background:radial-gradient(ellipse at bottom, #2B2735 0%, #090A0F 100%);
+  /*
+      #cB273f : red
+      #2B273f : blue-purple
+      #2B553f : dark-green
+
+  */
+    background:radial-gradient(ellipse at bottom, #400166 0%, #090A0F 100%);
     position:fixed;
     top:0;
     right:0;
