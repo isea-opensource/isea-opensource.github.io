@@ -105,3 +105,13 @@ var options = {
     "retina_detect":false
 };
 particlesJS("particle", options);
+
+$(function(){
+
+    var colors = ["#2B553f","#2B273F","#400166","#99273f"];
+
+    var index = Math.round((Math.random()*10)%(colors.length-1));
+    console.log(colors[index],index);
+    $('#particle').css("background","radial-gradient(ellipse at bottom,"+colors[index]+" 0%, #090A0F 100%)");
+
+});

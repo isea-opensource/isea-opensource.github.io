@@ -30,7 +30,6 @@ nav{
       #2B553f : dark-green
 
   */
-    background:radial-gradient(ellipse at bottom, #400166 0%, #090A0F 100%);
     position:fixed;
     top:0;
     right:0;
@@ -38,6 +37,7 @@ nav{
     left:0;
     z-index:-2; 
  }
+
 #slide1{
     top: 0px;
     left: 0px;
