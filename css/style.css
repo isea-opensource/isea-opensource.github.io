@@ -28,7 +28,7 @@ html,body{
     border-width: 1px;
 }
 .separator{
-    width: 50%;
+    width: 80%;
     border-width: 0.7px;
 }
 .header-nav{
@@ -60,7 +60,7 @@ html,body{
     color: #fff;
     position: fixed;
     top:50%;
-    font-family: 'Cinzel', serif;
+    font-family: 'Raleway', serif;
     transform: translateY(-50%);
     overflow-wrap: normal;
     width:100%;
@@ -77,31 +77,31 @@ html,body{
     border-style: none;
     margin-bottom:20px;
 }
-  #mock-parliment{
-    Background-color:#0000e5;
-  }
-  #aircrash{
-    background-color:orange;
-  }
-  .recently-compleated{
-    Background-color:#00004c;
-    border:0;
-    margin-bottom: 2px;
-  }
-  .recently-tile{
-    padding:2;
-  }
-  .others-tile{
-    margin-bottom: 2px;
-    border-style: none;
-    Background-color:#00004c;
-  }
-  #winners{
-    background-color: forestgreen;
-  }
-  #events{
-    margin-top: 60px;
-  }
+#mock-parliment{
+  Background-color:#0000e5;
+}
+#aircrash{
+  background-color:orange;
+}
+.recently-compleated{
+  Background-color:#00004c;
+  border:0;
+  margin-bottom: 2px;
+}
+.recently-tile{
+  padding:2;
+}
+.others-tile{
+  margin-bottom: 2px;
+  border-style: none;
+  Background-color:#00004c;
+}
+#winners{
+  background-color: forestgreen;
+}
+#events{
+  margin-top: 60px;
+}
 
 /*  compiled scss from https://codepen.io/yoannhel/pen/sJpDj?editors=1100  */
 .content {
@@ -127,7 +127,7 @@ html,body{
 }
 .content__container__list {
   margin-top: 0;
-  text-align: left;
+  text-align: center;
   list-style: none;
   -webkit-animation-name: change;
   -webkit-animation-duration: 10s;
@@ -137,8 +137,8 @@ html,body{
   animation-iteration-count: infinite;
 }
 .content__container__list__item {
-  line-height: 35px;
-  margin: 0;
+line-height: 35px;
+margin: 0;
 }
 
 @keyframes change {
@@ -165,5 +165,5 @@ html,body{
   83.3%,95.96% {
     -webkit-transform: translate3d(0, -25%, 0);
             transform: translate3d(0, -25%, 0);
-  }
+}
 }

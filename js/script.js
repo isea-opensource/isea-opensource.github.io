@@ -45,9 +45,10 @@ var options = {
             },
             "line_linked":{
                 "enable":false,
-                "distance":150,
+                "distance":130,
                 "color":"#ffffff",
-                "opacity":0.4,"width":1
+                "opacity":0.4,
+                "width":1
             },
             "move":{
                 "enable":true,
@@ -81,7 +82,11 @@ var options = {
                 "grab":{
                     "distance":400,
                     "line_linked":{
-                        "opacity":1
+                        "enable": true,
+                        "distance": 200,
+                        "color": "#fff",
+                        "opacity": 1,
+                        "width": 4
                     }
                 },
                 "bubble":{
