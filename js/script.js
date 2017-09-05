@@ -116,16 +116,8 @@ $(function(){
     var colors = ["#2B553f","#2B273F","#400166","#99273f"];
 
     var index = Math.round((Math.random()*10)%(colors.length-1));
-    console.log(colors[index],index);
+    var hightlight = colors[index];
 
-    /*
-        // var color = [["04150A","193326","1E3B2C","244836","2B553f"],["2B273F",],["400166",]["99273f",""]];
-        // $('#particle').css("background-color","#000");
-        // $('#particle').animate({
-        //     backgroundColor:"#2b553f"
-        // },2000);
-    */
-    
-    $('#particle').css("background","radial-gradient(ellipse at bottom,"+colors[index]+" 0%, #090A0F 100%)");
+    $('#particle').css("background","radial-gradient(ellipse at bottom,"+hightlight+" 0%, #090A0F 100%)");
     
 });

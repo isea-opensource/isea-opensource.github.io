@@ -27,10 +27,6 @@ html,body{
     border-color:#fff;
     border-width: 1px;
 }
-.separator{
-    width: 80%;
-    border-width: 0.7px;
-}
 .header-nav{
     background-color: #000;
     height: 40px;
@@ -65,43 +61,57 @@ html,body{
     overflow-wrap: normal;
     width:100%;
     z-index: -1;
-  } 
-.title{
-    color: #fff;
+} 
+
+/* config */
+.separator{
+  width: 80%;
+  border-width: 0.7px;
 }
-.upcoming{
-    color:#fff;
+.extra-height{
+  height: 80px;
 }
-.upcoming-event{
-    color:black;
-    border-style: none;
-    margin-bottom:20px;
+.inverse{
+  color:#fff;
+  background-color: #000;
+  text-align: right;
 }
-#mock-parliment{
-  Background-color:#0000e5;
+
+/* -------------- slide 2  ---------------- */
+/* the whole slide up thing */
+#slide2{
+  background-color: #fff;
+  position:relative; 
+  top: 100%;
+  font-family: 'Raleway', sans-serif;
 }
-#aircrash{
-  background-color:orange;
+
+/*  events  */
+#events img{
+  padding: 20px;
+  /* TODO: handle the frame later */
+  max-height: 200px;
 }
-.recently-compleated{
-  Background-color:#00004c;
-  border:0;
-  margin-bottom: 2px;
+
+/* houses */
+
+
+/*  about */
+#vision-text{
+  width:80%;
 }
-.recently-tile{
-  padding:2;
+/* todo: change it from tags to their perticular ids */
+ul{
+  list-style: none;
 }
-.others-tile{
-  margin-bottom: 2px;
-  border-style: none;
-  Background-color:#00004c;
+li:before{
+  content: "➔ "
 }
-#winners{
-  background-color: forestgreen;
+.mission-item{
+  line-height: 40px;
 }
-#events{
-  margin-top: 60px;
-}
+
+/* contact */
 
 /*  compiled scss from https://codepen.io/yoannhel/pen/sJpDj?editors=1100  */
 .content {
