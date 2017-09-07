@@ -20,7 +20,6 @@ html,body{
   padding-bottom: 10px !important;
   text-decoration:none;
   color:#fff;
-  
 }
 #team-link a:hover{
     border-top-style: solid;
@@ -72,6 +71,7 @@ html,body{
   height: 80px;
 }
 .inverse{
+  border-width: 0.5px;
   color:#fff;
   background-color: #000;
   text-align: right;
@@ -92,6 +92,19 @@ html,body{
   /* TODO: handle the frame later */
   max-height: 200px;
 }
+#upcomming{
+  margin: 0 auto;
+}
+.upcomming{
+  color: #666;
+  font-size: 80%;
+  border-color: #ddd;
+  border-width: 1px;
+  border-style: solid;
+  display: inline-block;
+  padding: 20px;
+  margin: 5px;
+}
 
 /* houses */
 
@@ -100,6 +113,7 @@ html,body{
 #vision-text{
   width:80%;
 }
+
 /* todo: change it from tags to their perticular ids */
 ul{
   list-style: none;
@@ -113,6 +127,9 @@ li:before{
 
 /* contact */
 
+#contact{
+  font-size: 80%;
+}
 /*  compiled scss from https://codepen.io/yoannhel/pen/sJpDj?editors=1100  */
 .content {
   position: absolute;
