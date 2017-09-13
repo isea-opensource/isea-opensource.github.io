@@ -121,3 +121,13 @@ $(function(){
     $('#particle').css("background","radial-gradient(ellipse at bottom,"+hightlight+" 0%, #090A0F 100%)");
     
 });
+
+function scrollNav() {
+    $('.nav a').click(function(){  
+      $('html, body').animate({
+          scrollTop: $( $(this).attr('href') ).offset().top - 30
+      }, 400)
+      return false;
+    });
+}
+scrollNav();
